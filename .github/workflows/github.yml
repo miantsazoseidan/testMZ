@@ -15,7 +15,7 @@ jobs:
       with:
         host: 192.168.88.28
         username: www-deploy
-        key: ${{secrets.MIANGALY}}
+        key: ${{ secrets.MIANGALY }}
         port: 22
         script: |
           cd /var/www/symfony-cs
